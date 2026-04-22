@@ -18,12 +18,14 @@
       "require": "./dist/react.cjs"
     }
   },
-  "files": ["dist", "src/sprites"],
+  "files": ["dist", "README.md", "LICENSE"],
+  "sideEffects": false,
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepublishOnly": "bun run build"
   },
   "peerDependencies": {
     "react": ">=18.0.0"
@@ -41,10 +43,30 @@
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
+  "author": "Softmax <dev@softmax.io>",
+  "homepage": "https://github.com/Metta-AI/mettagrid-client#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Metta-AI/metta"
+    "url": "git+https://github.com/Metta-AI/mettagrid-client.git"
   },
-  "keywords": ["mettagrid", "game", "websocket", "streaming", "renderer", "canvas"]
+  "bugs": {
+    "url": "https://github.com/Metta-AI/mettagrid-client/issues"
+  },
+  "keywords": [
+    "mettagrid",
+    "metta",
+    "game",
+    "websocket",
+    "streaming",
+    "renderer",
+    "canvas",
+    "react",
+    "real-time",
+    "multiplayer",
+    "simulation"
+  ]
 }
