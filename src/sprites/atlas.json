@@ -1,0 +1,474 @@
+[
+  {
+    "name": "agent_agent",
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent"
+  },
+  {
+    "name": "agent_agent_mask",
+    "x": 24,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent_mask"
+  },
+  {
+    "name": "agent_miner",
+    "x": 48,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent"
+  },
+  {
+    "name": "agent_miner_mask",
+    "x": 72,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent_mask"
+  },
+  {
+    "name": "agent_scout",
+    "x": 96,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent"
+  },
+  {
+    "name": "agent_scout_mask",
+    "x": 120,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent_mask"
+  },
+  {
+    "name": "agent_scrambler",
+    "x": 144,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent"
+  },
+  {
+    "name": "agent_scrambler_mask",
+    "x": 168,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent_mask"
+  },
+  {
+    "name": "agent_aligner",
+    "x": 192,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent"
+  },
+  {
+    "name": "agent_aligner_mask",
+    "x": 216,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent_mask"
+  },
+  {
+    "name": "agent_chef",
+    "x": 240,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent"
+  },
+  {
+    "name": "agent_chef_mask",
+    "x": 264,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent_mask"
+  },
+  {
+    "name": "agent_miner_pickaxe",
+    "x": 288,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent"
+  },
+  {
+    "name": "agent_miner_pickaxe_mask",
+    "x": 312,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "agent_mask"
+  },
+  {
+    "name": "frozen",
+    "x": 336,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "effect"
+  },
+  {
+    "name": "obj_hub",
+    "x": 360,
+    "y": 0,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_hub_ready",
+    "x": 0,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_hub_working",
+    "x": 24,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_junction",
+    "x": 48,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_junction_working",
+    "x": 72,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_junction_depleted",
+    "x": 96,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_carbon_extractor",
+    "x": 120,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_germanium_extractor",
+    "x": 144,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_oxygen_extractor",
+    "x": 168,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_silicon_extractor",
+    "x": 192,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_carbon_extractor_working",
+    "x": 216,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_germanium_extractor_working",
+    "x": 240,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_oxygen_extractor_working",
+    "x": 264,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_silicon_extractor_working",
+    "x": 288,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_charger",
+    "x": 312,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_generator",
+    "x": 336,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_chest",
+    "x": 360,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_block",
+    "x": 0,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_ship",
+    "x": 24,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_armory",
+    "x": 48,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_lab",
+    "x": 72,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_factory",
+    "x": 96,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_temple",
+    "x": 120,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_altar",
+    "x": 144,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_converter",
+    "x": 168,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_trash",
+    "x": 192,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_unknown",
+    "x": 216,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "obj_selection",
+    "x": 240,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "object"
+  },
+  {
+    "name": "res_heart",
+    "x": 264,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_carbon",
+    "x": 288,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_germanium",
+    "x": 312,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_oxygen",
+    "x": 336,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_silicon",
+    "x": 360,
+    "y": 48,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_energy",
+    "x": 0,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_ore",
+    "x": 24,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_battery",
+    "x": 48,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_laser",
+    "x": 72,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_armor",
+    "x": 96,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_blueprint",
+    "x": 120,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_decoder",
+    "x": 144,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_modulator",
+    "x": 168,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_resonator",
+    "x": 192,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "res_star",
+    "x": 216,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "resource"
+  },
+  {
+    "name": "tile",
+    "x": 240,
+    "y": 72,
+    "w": 24,
+    "h": 24,
+    "category": "terrain"
+  }
+]
