@@ -1,6 +1,6 @@
 # @metta-ai/mettagrid-client
 
-TypeScript client library for real-time [mettagrid](https://github.com/Metta-AI/metta) game streaming. Connect to a running simulation over WebSocket, render the game in a lightweight Canvas viewer, and build custom UIs with React hooks.
+TypeScript client library for real-time [mettagrid](https://github.com/softmax-universe/mettagrid) game streaming. Connect to a running simulation over WebSocket, render the game in a lightweight Canvas viewer, and build custom UIs with React hooks.
 
 ![Sprite Atlas](src/sprites/atlas.png)
 
@@ -154,7 +154,7 @@ client.connect()
 
 ## Protocol
 
-The client implements the [WebSocket Replay Streaming Protocol](https://github.com/Metta-AI/metta/blob/main/packages/mettagrid/docs/websocket_protocol.md) (v1).
+The client implements a WebSocket replay streaming protocol (v1), described below. Message types are defined in [`src/types.ts`](https://github.com/softmax-universe/mettagrid-client/blob/main/src/types.ts).
 
 ### Connection flow
 
@@ -169,6 +169,8 @@ The client implements the [WebSocket Replay Streaming Protocol](https://github.c
 Step 0 sends all objects with full fields. Subsequent steps send only changed fields per object. Objects not mentioned retain their previous state. The `ObjectStateMap` handles this automatically.
 
 ## Running a Game Server
+
+These examples require a MettaGrid checkout that provides `mettagrid.streaming`. The module is not present in the current public MettaGrid main branch.
 
 Start a mettagrid simulation with WebSocket streaming enabled:
 
@@ -194,7 +196,7 @@ simulator.add_event_handler(streamer)
 
 ## Sprite Atlas
 
-The renderer includes a 57KB sprite atlas with 59 sprites downscaled from [MettaScope](https://github.com/Metta-AI/metta/tree/main/packages/mettagrid/nim/mettascope) game art:
+The renderer includes a 57KB sprite atlas with 59 sprites downscaled from [MettaScope](https://github.com/softmax-universe/mettagrid/tree/main/nim/mettascope) game art:
 
 - **Agents**: robot sprites with team-color tinting masks (6 types × 1 direction)
 - **Objects**: hub, junction, extractor, charger, generator, chest, block, ship, armory, lab

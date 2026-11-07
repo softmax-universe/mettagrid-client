@@ -48,13 +48,13 @@
   },
   "license": "MIT",
   "author": "Softmax <dev@softmax.io>",
-  "homepage": "https://github.com/Metta-AI/mettagrid-client#readme",
+  "homepage": "https://github.com/softmax-universe/mettagrid-client#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Metta-AI/mettagrid-client.git"
+    "url": "git+https://github.com/softmax-universe/mettagrid-client.git"
   },
   "bugs": {
-    "url": "https://github.com/Metta-AI/mettagrid-client/issues"
+    "url": "https://github.com/softmax-universe/mettagrid-client/issues"
   },
   "keywords": [
     "mettagrid",
