@@ -1,5 +1,4 @@
 // Protocol types for mettagrid WebSocket streaming
-// Matches: packages/mettagrid/docs/websocket_protocol.md
 
 // -- Server -> Client messages --
 
